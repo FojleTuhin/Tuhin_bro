@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import "../app/globals.css";
 
 const Hero = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -14,6 +15,7 @@ const Hero = () => {
     // Reset the button state after a short delay
     setTimeout(() => setIsClicked(false), 1000);
   };
+
   return (
     <div>
       <div className="max-w-[1320px] mx-auto pt-[110px] pb-10  px-6 relative h-svh min-h-[640px] ">
@@ -28,18 +30,22 @@ const Hero = () => {
         </div>
 
         <div className="grid grid-cols-2 h-[100%]">
-          <div className="bg-[url('https://i.ibb.co.com/rf5Q8szP/tuhin.png')] bg-no-repeat bg-contain w-full ml-10 z-40 ">
-            <div className="flex justify-end flex-col h-full ml-5">
-              <p className="text-[24px] mb-3 leading-none">This is,</p>
-              <p className="text-[130px] leading-[86%] uppercase tracking-[-6px] font-medium">Tuhin</p>
+          <div className="bg-[url('https://i.ibb.co.com/rf5Q8szP/tuhin.png')] bg-no-repeat bg-contain w-full  z-40 ">
+            <div
+              className="flex justify-end flex-col h-full ml-5 "
+            >
+              <p className="text-[24px] mb-3 leading-none ">This is,</p>
+              <div className="text-[130px] flex leading-[86%] uppercase tracking-[-6px] font-medium ">
+                <p className="hover-large">Tuhin</p>
+              </div>
             </div>
           </div>
 
           <div className="flex flex-col justify-between h-full gap-8 ">
             <div className="flex-1 ">
               <div className="flex flex-col justify-center h-full">
-                <p className="text-[24px] mb-3">Front-end Developer</p>
-                <p className="text-[58px] font-medium uppercase leading-[86%]">
+                <p className="text-[24px] mb-3 hover-large flex">Front-end Developer</p>
+                <p className="text-[58px] font-medium uppercase leading-[86%] tracking-[-2px] hover-large flex">
                   Creating <br /> Web-magic <br /> with Code
                 </p>
               </div>

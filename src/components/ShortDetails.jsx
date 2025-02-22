@@ -1,8 +1,23 @@
+'use client';
 import moment from "moment";
+import { useEffect, useState } from "react";
 
 const ShortDetails = () => {
+  const [time, setTime] = useState("");
+
+  useEffect(() => {
+    // Update the time every second
+    const interval = setInterval(() => {
+      setTime(moment().format("LTS"));
+    }, 1000);
+
+    // Cleanup interval on unmount
+    return () => clearInterval(interval);
+  }, []);
+
+
   return (
-    <div className="fixed inset-0 min-h-screen w-full z-0 pointer-events-none">
+    <div className="fixed inset-0 min-h-screen w-full z-50 pointer-events-none">
       <div className="flex justify-between h-full thirteenPx:px-5">
         <div className="flex flex-col items-center justify-center h-full gap-8">
           <p className=" font-medium rotate-180 [writing-mode:vertical-lr] tracking-wider">
@@ -61,7 +76,7 @@ const ShortDetails = () => {
             GMT + 6,{" "}
           </p>
           <p className=" font-medium rotate-270 [writing-mode:vertical-rl] tracking-wider">
-            {moment().format("LT")}
+            {time}
           </p>
         </div>
       </div>

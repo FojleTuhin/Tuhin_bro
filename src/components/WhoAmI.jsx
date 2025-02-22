@@ -1,12 +1,12 @@
 const WhoAmI = () => {
   return (
-    <div className="pt-[232px] pb-24 max-w-[1320px] mx-auto px-8 ">
+    <div className="pt-[132px] pb-24 max-w-[1320px] mx-auto px-8 ">
       <div className="grid grid-cols-2 gap-y-24">
         <div>
           <p className="text-[28px] font-medium">WHO AM I_</p>
         </div>
         <div>
-          <p className="text-[24px]">
+          <p className="text-[24px] hover-large">
             I specialize in building fast, responsive, and user-friendly
             websites that not only look great but also perform flawlessly. With
             expertise in modern technologies like React, Vue, and Tailwind, I

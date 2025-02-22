@@ -1,8 +1,8 @@
 const Contact = () => {
   return (
     <div>
-      <div className="max-w-[651px] mx-auto pt-[134px] pb-[204px]">
-        <p className="text-center text-[48px] text-[#F1CCFF] font-medium mb-[68px]">
+      <div className="max-w-[651px] mx-auto py-24">
+        <p className="text-center text-[48px] text-[#F1CCFF] font-medium mb-12">
           Contact
         </p>
         <div className="grid grid-cols-2 gap-[18px] gap-y-8">

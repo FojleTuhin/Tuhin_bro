@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="my-6 fixed w-full z-50">
-      <div className="max-w-[613px] mx-auto flex justify-between items-center  h-16 pl-[26px] pr-4 bg-[#8C8C8C29] rounded-full backdrop-blur-md pointer-events-none">
+    <div className="my-[18px] fixed w-full z-50">
+      <div className="max-w-[613px] mx-auto flex justify-between items-center  pl-[26px] pr-4 bg-[#8C8C8C29] rounded-full backdrop-blur-md pointer-events-none">
         <div>
-          <Image src={logo} alt="logo" />
+          <Image src={logo} alt="logo " className="h-5 w-auto"/>
         </div>
         <div>
           <ul className="flex ">

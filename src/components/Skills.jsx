@@ -7,9 +7,9 @@ const Skills = () => {
         <p className="text-[28px] font-medium">My Skills_</p>
       </div>
 
-      <div className="grid grid-cols-2 gap-[18px] mt-12">
+      <div className="grid grid-cols-2 gap-[18px] mt-12 hover-large">
         {/* frontend  */}
-        <div>
+        <div className="">
           <p className="text-[18px] mb-3">Front-end</p>
 
           {/* one  */}
@@ -195,7 +195,7 @@ const Skills = () => {
         </div>
 
         {/* backend  */}
-        <div>
+        <div className="">
           <p className="text-[18px] mb-3">Back-end</p>
 
           {/* one  */}

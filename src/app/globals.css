@@ -19,3 +19,56 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+#cursor {
+  width: 24px;
+  height: 24px;
+  background: #F1CCFF;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  z-index: 9999;
+  transition: transform 0.2s ease;
+}
+
+/* Hide default cursor */
+* {
+  cursor: none;
+}
+
+/* Show default cursor for interactive elements */
+/* a,
+button,
+input,
+textarea,
+select {
+  cursor: none;
+} */
+
+/* Optional: Scale effect on hover */
+/* #cursor.hover {
+  transform: scale(1.5);
+} */
+
+
+/* 
+#cursor {
+  transition: transform 0.2s ease;
+}
+
+#cursor:active {
+  transform: scale(0.8) translate(-50%, -50%);
+} */
+
+
+#cursor.large {
+  width: 250px;
+  height: 250px;
+  background: #F1CCFF;
+  mix-blend-mode: difference;
+  transition: transform 0.2s ease-in-out;
+}
+
+

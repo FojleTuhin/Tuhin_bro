@@ -35,10 +35,10 @@ const Projects = () => {
   return (
     <div className="max-w-[1320px] mx-auto pb-[196px] z-20 px-8">
       <div className="grid grid-cols-2 mb-16 ">
-        <p className="text-[112px] font-medium leading-none">MY PROJECTS</p>
+        <p className="text-[112px] font-medium leading-[86%] tracking-[-6px]">MY PROJECTS</p>
         <div className="flex  justify-end items-end">
-          <p className="text-[58px] font-medium leading-none ">
-            45+ <br /> PROJECTS <br /> COMPLETED
+          <p className="text-[58px] font-medium leading-[86%]  tracking-[-2px]">
+            20+ <br /> PROJECTS <br /> COMPLETED
           </p>
         </div>
       </div>
