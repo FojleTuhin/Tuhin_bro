@@ -1,14 +1,21 @@
+'use client';
 import { ArrowUp } from "lucide-react";
 import Image from "next/image";
 import vector from "../../public/vector.svg";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    })
+  }
   return (
     <div className="bg-[#F1CCFF] rounded-[12px] max-w-[1094px]  mx-auto py-40 px-28 mb-8">
       <div className="grid grid-cols-2 gap-[18px]">
         <div className="flex flex-col justify-between h-[322px]">
           <div className="flex">
-            <button className="bg-[#0000001A] text-[#000000] rounded-[12px] py-5 px-6 flex gap-[10px]">
+            <button onClick={scrollToTop} className="bg-[#0000001A] text-[#000000] rounded-[12px] py-5 px-6 flex gap-[10px]">
               <p className="text-[18px] font-medium">Back to top</p>
               <ArrowUp />
             </button>
