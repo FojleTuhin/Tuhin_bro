@@ -3,7 +3,7 @@ import moment from "moment";
 const ShortDetails = () => {
   return (
     <div className="fixed inset-0 min-h-screen w-full z-0 pointer-events-none">
-      <div className="flex justify-between h-full">
+      <div className="flex justify-between h-full thirteenPx:px-5">
         <div className="flex flex-col items-center justify-center h-full gap-8">
           <p className=" font-medium rotate-180 [writing-mode:vertical-lr] tracking-wider">
             Born 2001

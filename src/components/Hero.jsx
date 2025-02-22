@@ -16,7 +16,7 @@ const Hero = () => {
   };
   return (
     <div>
-      <div className="max-w-[1320px] mx-auto pt-[110px] pb-10  px-6 relative h-svh min-h-[640px] max-h-[900px]">
+      <div className="max-w-[1320px] mx-auto pt-[110px] pb-10  px-6 relative h-svh min-h-[640px] ">
         <div className="absolute inset-0 flex items-center justify-center z-0 pointer-events-none">
           <div className="w-[500px] h-[500px] rounded-full relative overflow-hidden mx-auto">
             {/* Radial Gradient Background */}
@@ -28,7 +28,7 @@ const Hero = () => {
         </div>
 
         <div className="grid grid-cols-2 h-[100%]">
-          <div className="bg-[url('https://i.ibb.co.com/rf5Q8szP/tuhin.png')] bg-no-repeat bg-contain w-full ml-10 z-50 ">
+          <div className="bg-[url('https://i.ibb.co.com/rf5Q8szP/tuhin.png')] bg-no-repeat bg-contain w-full ml-10 z-40 ">
             <div className="flex justify-end flex-col h-full ml-5">
               <p className="text-[24px] mb-3 leading-none">This is,</p>
               <p className="text-[130px] leading-[86%] uppercase tracking-[-6px] font-medium">Tuhin</p>

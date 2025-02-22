@@ -17,6 +17,9 @@ export default {
       boxShadow: {
         'inset-custom': 'inset -99px 198px 145px -60px rgba(241, 204, 255, 0.40)',
       },
+      screens: {
+        'thirteenPx': '1320px',
+      },  
     },
   },
   plugins: [],
