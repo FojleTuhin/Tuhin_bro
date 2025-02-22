@@ -14,6 +14,7 @@ export default function Home() {
       <ShortDetails />
       <Navbar />
       <Hero />
+      <div className="border-b pt-14 max-w-[1320px] mx-auto"></div>
       <WhoAmI />
       <Skills />
       <Projects />

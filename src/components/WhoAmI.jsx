@@ -1,6 +1,6 @@
 const WhoAmI = () => {
   return (
-    <div className="pt-[232px] pb-24 max-w-[1320px] mx-auto px-8">
+    <div className="pt-[232px] pb-24 max-w-[1320px] mx-auto px-8 ">
       <div className="grid grid-cols-2 gap-y-24">
         <div>
           <p className="text-[28px] font-medium">WHO AM I_</p>
