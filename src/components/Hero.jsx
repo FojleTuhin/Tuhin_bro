@@ -27,9 +27,9 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 ">
-          <div className="bg-[url('https://i.ibb.co.com/rf5Q8szP/tuhin.png')] h-[500px] bg-no-repeat bg-contain w-full ml-10 z-50 ">
-            <div className="flex justify-end flex-col h-[500px] ml-5">
+        <div className="grid grid-cols-2 h-[100%]">
+          <div className="bg-[url('https://i.ibb.co.com/rf5Q8szP/tuhin.png')] h-[100%] bg-no-repeat bg-contain w-full ml-10 z-50 ">
+            <div className="flex justify-end flex-col h-full ml-5">
               <p className="text-[24px] mb-3 leading-none">This is,</p>
               <p className="text-[130px] leading-[86%] uppercase tracking-[-6px] font-medium">Tuhin</p>
             </div>
