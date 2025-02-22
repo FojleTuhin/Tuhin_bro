@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import TextMarque from "@/components/TextMarque";
 import WhoAmI from "@/components/WhoAmI";
 
 export default function Home() {
@@ -7,7 +8,8 @@ export default function Home() {
     <div>
       <Navbar />
       {/* <Hero /> */}
-      <WhoAmI/>
+      <WhoAmI />
+      <TextMarque />
     </div>
   );
 }
