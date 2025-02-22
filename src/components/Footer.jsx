@@ -4,7 +4,7 @@ import vector from "../../public/vector.svg";
 
 const Footer = () => {
   return (
-    <div className="bg-[#F1CCFF] rounded-[12px] max-w-[1094px]  mx-auto py-40 px-28">
+    <div className="bg-[#F1CCFF] rounded-[12px] max-w-[1094px]  mx-auto py-40 px-28 mb-8">
       <div className="grid grid-cols-2 gap-[18px]">
         <div className="flex flex-col justify-between h-[322px]">
           <div className="flex">

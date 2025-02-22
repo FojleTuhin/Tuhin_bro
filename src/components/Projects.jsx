@@ -33,8 +33,8 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="max-w-[1320px] mx-auto pb-[196px]">
-      <div className="grid grid-cols-2 mb-16 px-6">
+    <div className="max-w-[1320px] mx-auto pb-[196px] z-20 px-8">
+      <div className="grid grid-cols-2 mb-16 ">
         <p className="text-[112px] font-medium leading-none">MY PROJECTS</p>
         <div className="flex  justify-end items-end">
           <p className="text-[58px] font-medium leading-none ">
@@ -44,9 +44,15 @@ const Projects = () => {
       </div>
 
       {projects.map((project, index) => (
-        <a href={project.link} key={index} target="_blank" rel="noreferrer">    
-          <div className="group py-12 px-6 border-y border-[#F1CCFF] flex justify-between gap-[18px]  duration-700 transition-all ease-in-out hover:bg-[#F1CCFF] hover:cursor-[#000000]">
-            <p className="flex items-center w-[200px] group-hover:text-black">
+        <a
+          href={project.link}
+          key={index}
+          target="_blank"
+          rel="noreferrer"
+          className="block"
+        >
+          <div className="group py-12 px-6 border-y border-[#F1CCFF] flex justify-between gap-[18px] transition-all duration-700 ease-in-out hover:bg-[#F1CCFF] hover:cursor-pointer">
+            <p className="flex items-center w-[200px] text-white group-hover:text-black">
               {project.no}/
             </p>
             <div className="flex-1">
@@ -60,7 +66,9 @@ const Projects = () => {
                   </p>
                 </div>
                 <div className="flex items-end text-end">
-                  <p className="group-hover:text-black">{project.tech}</p>
+                  <p className="text-white group-hover:text-black">
+                    {project.tech}
+                  </p>
                 </div>
               </div>
             </div>
