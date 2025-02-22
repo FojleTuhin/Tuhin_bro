@@ -12,12 +12,10 @@ export default {
         foreground: "var(--foreground)",
       },
       backgroundImage: {
-        "gradient-radial":
-          "radial-gradient(75.86% 65.75% at 75.32% 21.92%, rgba(241, 204, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%)",
+        'gradient-radial': 'radial-gradient(75.86% 65.75% at 75.32% 21.92%, rgba(241, 204, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%)',
       },
       boxShadow: {
-        "inset-custom":
-          "inset -99px 198px 145px -60px rgba(241, 204, 255, 0.40)",
+        'inset-custom': 'inset -99px 198px 145px -60px rgba(241, 204, 255, 0.40)',
       },
     },
   },
