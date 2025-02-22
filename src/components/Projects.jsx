@@ -51,13 +51,13 @@ const Projects = () => {
           rel="noreferrer"
           className="block"
         >
-          <div className="group py-12 px-6 border-y border-[#F1CCFF] flex justify-between gap-[18px] transition-all duration-700 ease-in-out hover:bg-[#F1CCFF] hover:cursor-pointer">
-            <p className="flex items-center w-[200px] text-white group-hover:text-black">
+          <div className="group py-12  border-y border-[#F1CCFF] flex justify-between gap-[18px] transition-all duration-700 ease-in-out hover:bg-[#F1CCFF] hover:cursor-pointer">
+            <p className="flex group-hover:pl-6 duration-700 transition-all items-center w-[200px] text-white group-hover:text-black">
               {project.no}/
             </p>
             <div className="flex-1">
-              <div className="flex justify-between gap-4">
-                <div>
+              <div className="flex w-full gap-4">
+                <div className="w-[65%]">
                   <p className="text-[48px] font-medium text-[#F1CCFF] group-hover:text-black leading-none">
                     {project.title}
                   </p>
@@ -65,7 +65,7 @@ const Projects = () => {
                     {project.description}
                   </p>
                 </div>
-                <div className="flex items-end text-end">
+                <div className="flex  items-end w-[35%]">
                   <p className="text-white group-hover:text-black">
                     {project.tech}
                   </p>
@@ -73,14 +73,14 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="w-[200px] flex justify-end items-end">
+            <div className="w-[200px] flex justify-end items-end ease-in-out transform group-hover:pr-6 duration-700 transition-all">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="100"
                 height="100"
                 viewBox="0 0 100 100"
                 fill="none"
-                className="transition-all duration-700 ease-in-out transform group-hover:rotate-45"
+                className=" ease-in-out transform hover:pr-6 duration-700 transition-all"
               >
                 <path
                   fillRule="evenodd"

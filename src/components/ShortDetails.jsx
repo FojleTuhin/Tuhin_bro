@@ -5,10 +5,10 @@ const ShortDetails = () => {
     <div className="fixed inset-0 min-h-screen w-full z-0 pointer-events-none">
       <div className="flex justify-between h-full">
         <div className="flex flex-col items-center justify-center h-full gap-8">
-          <p className="text-[18px] font-medium rotate-180 [writing-mode:vertical-lr] tracking-wider">
+          <p className=" font-medium rotate-180 [writing-mode:vertical-lr] tracking-wider">
             Born 2001
           </p>
-          <p className="text-[18px] font-medium rotate-180 [writing-mode:vertical-lr] tracking-wider">
+          <p className=" font-medium rotate-180 [writing-mode:vertical-lr] tracking-wider">
             BASED IN DHAKA
           </p>
           <div className="flex flex-col gap-3 pointer-events-auto">
@@ -57,10 +57,10 @@ const ShortDetails = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center h-full gap-8">
-          <p className="text-[18px] font-medium rotate-270 [writing-mode:vertical-rl] tracking-wider">
+          <p className=" font-medium rotate-270 [writing-mode:vertical-rl] tracking-wider">
             GMT + 6,{" "}
           </p>
-          <p className="text-[18px] font-medium rotate-270 [writing-mode:vertical-rl] tracking-wider">
+          <p className=" font-medium rotate-270 [writing-mode:vertical-rl] tracking-wider">
             {moment().format("LT")}
           </p>
         </div>

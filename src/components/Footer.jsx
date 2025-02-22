@@ -1,7 +1,7 @@
 'use client';
 import { ArrowUp } from "lucide-react";
 import Image from "next/image";
-import vector from "../../public/vector.svg";
+import vector from "../../public/Vector.svg";
 
 const Footer = () => {
   const scrollToTop = () => {
