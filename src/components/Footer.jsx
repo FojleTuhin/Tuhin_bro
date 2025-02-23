@@ -25,7 +25,11 @@ const Footer = () => {
               </button>
             </div>
 
-            <Image src={vector} alt="logo" className="lg:w-[324px]  w-[200px] h-auto" />
+            <Image
+              src={vector}
+              alt="logo"
+              className="lg:w-[324px]  w-[200px] h-auto"
+            />
           </div>
 
           <div className="text-[#000000] flex flex-col justify-between h-[322px]">
