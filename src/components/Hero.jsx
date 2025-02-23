@@ -24,11 +24,14 @@ const Hero = ({ contactRef }) => {
 
   return (
     <div>
-      <div className="max-w-[1320px] mx-auto pt-[110px] pb-10  px-6 relative h-svh min-h-[640px] ">
-        <div className="absolute inset-0 flex items-center justify-center z-0 pointer-events-none" style={{ zIndex: 0 }}>
+      <div className="max-w-[1320px] mx-auto pt-[110px] pb-10  px-6 relative h-svh min-h-[640px] overflow-hidden">
+        <div
+          className="absolute inset-0 flex items-center justify-center z-0 pointer-events-none"
+          style={{ zIndex: 0 }}
+        >
           <div
             className="tab:w-[500px] tab:h-[500px] w-[350px] h-[350px] max-h-[500px] rounded-full relative overflow-hidden mx-auto 
-                  sm:w-[350px] sm:h-[350px] flex-shrink-0" 
+                  sm:w-[350px] sm:h-[350px] flex-shrink-0"
           >
             {/* Radial Gradient Background */}
             <div className="absolute inset-0 bg-gradient-radial from-[rgba(241,204,255,0.20)] to-transparent opacity-100" />
@@ -38,7 +41,10 @@ const Hero = ({ contactRef }) => {
           </div>
         </div>
 
-        <div className="grid tab:grid-cols-2 h-[100%] z-40" style={{ zIndex: 1 }}>
+        <div
+          className="grid tab:grid-cols-2 h-[100%] z-40"
+          style={{ zIndex: 1 }}
+        >
           <div className="bg-[url('https://i.ibb.co.com/rf5Q8szP/tuhin.png')] bg-no-repeat bg-contain  w-full     ">
             <div className="flex justify-end flex-col h-full ml-5 ">
               <p className="tab:text-[24px] text-[18px] tab:mb-3 mb-2 leading-none ">
@@ -48,12 +54,6 @@ const Hero = ({ contactRef }) => {
                 <p className="hover-large">Tuhin</p>
               </div>
             </div>
-
-
-
-
-
-            
           </div>
 
           <div className="tab:flex flex-col justify-between h-full gap-8 hidden ">
