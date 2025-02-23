@@ -44,7 +44,7 @@ const Contact = forwardRef((props, ref) => {
         </div>
 
         <div className="flex mt-12 justify-center">
-          <button className="py-3 px-8 rounded-full bg-[#F1CCFF] text-[18px] font-medium text-[#000] flex items-center gap-[10px] ">
+          <button className="py-3 px-8 rounded-full group bg-[#F1CCFF] text-[18px] font-medium text-[#000] flex items-center gap-[10px] hover:bg-[#fff] hover:gap-[18px]  duration-200 transition-all ease-in-out group">
             <p>Say hello</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -52,6 +52,7 @@ const Contact = forwardRef((props, ref) => {
               height="17"
               viewBox="0 0 16 17"
               fill="none"
+              className="group-hover:-rotate-45 duration-300 transition-all ease-in-out "
             >
               <g clipPath="url(#clip0_1_210)">
                 <path
