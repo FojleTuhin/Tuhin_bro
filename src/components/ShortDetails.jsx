@@ -16,7 +16,7 @@ const ShortDetails = () => {
   }, []);
 
   return (
-    <div className="fixed inset-0 min-h-screen w-full z-50 pointer-events-none">
+    <div className="fixed inset-0 min-h-screen w-full z-50 pointer-events-none text-[12px] mob:text-[14px]">
       <div className="flex justify-between h-full thirteenPx:px-5">
         <div className="flex flex-col items-center justify-center h-full gap-8">
           <p className=" font-medium rotate-180 [writing-mode:vertical-lr] tracking-wider">

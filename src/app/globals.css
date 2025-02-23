@@ -47,7 +47,6 @@ body {
   }
 }
 
-/* 500px er niche default cursor show korbe */
 @media (max-width: 499px) {
   * {
     cursor: auto;

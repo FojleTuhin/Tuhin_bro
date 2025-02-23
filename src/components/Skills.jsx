@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Skills = () => {
   return (
-    <div className="max-w-[1320px] mx-auto py-[128px] px-8">
+    <div className="max-w-[1320px] mx-auto py-[128px] px-6">
       <div>
         <p className="text-[28px] font-medium">My Skills_</p>
       </div>

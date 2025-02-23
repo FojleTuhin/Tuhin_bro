@@ -32,7 +32,7 @@ const Projects = forwardRef((props, ref) => {
     },
   ];
   return (
-    <div ref={ref} className="max-w-[1320px] mx-auto pb-[196px] z-20 px-8">
+    <div ref={ref} className="max-w-[1320px] mx-auto pb-[196px] z-20 px-6">
       <div className="grid tab:grid-cols-2 mb-16 ">
         <p className="tab:text-[112px] text-[58px] tab:order-1 order-2 font-medium leading-[86%] tracking-[-6px]">
           MY PROJECTS

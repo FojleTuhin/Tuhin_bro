@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 
 const WhoAmI = forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="pt-[132px] pb-24 max-w-[1320px] mx-auto px-8 ">
+    <div ref={ref} className="pt-[132px] pb-24 max-w-[1320px] mx-auto px-6 ">
       <div className="grid mob:grid-cols-3 lg:grid-cols-2 gap-y-6">
         <div>
           <p className="text-[28px] font-medium">WHO AM I_</p>
