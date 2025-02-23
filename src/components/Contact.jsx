@@ -1,7 +1,9 @@
-const Contact = () => {
+import { forwardRef } from "react";
+
+const Contact = forwardRef((props, ref) => {
   return (
-    <div>
-      <div className="max-w-[651px] mx-auto py-24">
+    <div ref={ref}>
+      <div className="max-w-[651px] mx-auto py-20" id="contact">
         <p className="text-center text-[48px] text-[#F1CCFF] font-medium mb-12">
           Contact
         </p>
@@ -73,6 +75,6 @@ const Contact = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Contact;

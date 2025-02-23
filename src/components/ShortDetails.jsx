@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import moment from "moment";
 import { useEffect, useState } from "react";
 
@@ -14,7 +14,6 @@ const ShortDetails = () => {
     // Cleanup interval on unmount
     return () => clearInterval(interval);
   }, []);
-
 
   return (
     <div className="fixed inset-0 min-h-screen w-full z-50 pointer-events-none">

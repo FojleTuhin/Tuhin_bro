@@ -1,7 +1,7 @@
-import Link from "next/link";
-import React from "react";
 
-const Projects = () => {
+import React, { forwardRef } from "react";
+
+const Projects = forwardRef((props, ref) => {
   const projects = [
     {
       no: "1",
@@ -33,7 +33,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="max-w-[1320px] mx-auto pb-[196px] z-20 px-8">
+    <div ref={ref} className="max-w-[1320px] mx-auto pb-[196px] z-20 px-8">
       <div className="grid grid-cols-2 mb-16 ">
         <p className="text-[112px] font-medium leading-[86%] tracking-[-6px]">MY PROJECTS</p>
         <div className="flex  justify-end items-end">
@@ -95,6 +95,6 @@ const Projects = () => {
       ))}
     </div>
   );
-};
+});
 
 export default Projects;

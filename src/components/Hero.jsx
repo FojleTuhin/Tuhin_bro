@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "../app/globals.css";
 
-const Hero = () => {
+const Hero = ({contactRef}) => {
   const [isClicked, setIsClicked] = useState(false);
 
   const handleClick = () => {
@@ -15,6 +15,14 @@ const Hero = () => {
     // Reset the button state after a short delay
     setTimeout(() => setIsClicked(false), 1000);
   };
+
+
+  const handleScrollToContact = () => {
+    if (contactRef.current) {
+      contactRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
 
   return (
     <div>
@@ -96,7 +104,7 @@ const Hero = () => {
                 </button>
               </div>
               <div className="flex  ">
-                <button className="py-2 px-3 rounded-full bg-[#F1CCFF] text-[18px] font-medium text-[#000] flex items-center gap-[10px] ">
+                <button onClick={ handleScrollToContact} className="py-2 px-3 rounded-full bg-[#F1CCFF] text-[18px] font-medium text-[#000] flex items-center gap-[10px] ">
                   <p>Say hello</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
