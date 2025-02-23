@@ -11,7 +11,7 @@ const Navbar = ({ aboutRef, projectsRef, contactRef }) => {
 
   return (
     <div className="my-[18px] fixed w-full z-50 px-6">
-      <div className="max-w-[613px] mx-auto flex justify-between items-center py-3 pl-[26px] pr-4 bg-[#8C8C8C29] rounded-full backdrop-blur-md">
+      <div className="max-w-[613px] mx-auto flex justify-between items-center py-3 mob:py-5 pl-[26px] pr-4 bg-[#8C8C8C29] rounded-full backdrop-blur-md">
         <div>
           <Image src={logo} alt="logo " className="h-5 w-auto" />
         </div>

@@ -20,27 +20,42 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#cursor {
-  width: 24px;
-  height: 24px;
-  background: #F1CCFF;
-  border-radius: 50%;
-  position: fixed;
-  pointer-events: none;
-  mix-blend-mode: difference;
-  z-index: 9999;
-  transition: transform 0.6s ease-out, width 0.6s ease-out, height 0.6s ease-out, opacity 0.6s ease-out;
-  will-change: transform;
+
+
+@media (min-width: 500px) {
+  #cursor {
+    width: 24px;
+    height: 24px;
+    background: #F1CCFF;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    z-index: 9999;
+    transition: transform 0.6s ease-out, width 0.6s ease-out, height 0.6s ease-out, opacity 0.6s ease-out;
+    will-change: transform;
+  }
+
+  * {
+    cursor: none;
+  }
+
+  #cursor.large {
+    width: 350px; 
+    height: 350px;
+    transition: transform 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out;
+  }
 }
 
-* {
-  cursor: none;
-}
+/* 500px er niche default cursor show korbe */
+@media (max-width: 499px) {
+  * {
+    cursor: auto;
+  }
 
-#cursor.large {
-  width: 350px; 
-  height: 350px;
-  transition: transform 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out;
+  #cursor {
+    display: none;
+  }
 }
 
 
