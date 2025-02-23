@@ -19,6 +19,10 @@ export default {
       },
       screens: {
         'thirteenPx': '1320px',
+        'tab':'876px',
+        'lTab':'900px',
+        'mob':'500px',
+
       },  
     },
   },

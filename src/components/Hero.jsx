@@ -26,7 +26,7 @@ const Hero = ({ contactRef }) => {
     <div>
       <div className="max-w-[1320px] mx-auto pt-[110px] pb-10  px-6 relative h-svh min-h-[640px] ">
         <div className="absolute inset-0 flex items-center justify-center z-0 pointer-events-none">
-          <div className="w-[500px] h-[500px] rounded-full relative overflow-hidden mx-auto">
+          <div className="w-[500px] h-[500px] max-h-[500px] rounded-full relative overflow-hidden mx-auto">
             {/* Radial Gradient Background */}
             <div className="absolute inset-0 bg-gradient-radial from-[rgba(241,204,255,0.20)] to-transparent opacity-100" />
 
@@ -35,11 +35,11 @@ const Hero = ({ contactRef }) => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 h-[100%]">
-          <div className="bg-[url('https://i.ibb.co.com/rf5Q8szP/tuhin.png')] bg-no-repeat bg-contain w-full  z-40 ">
+        <div className="tab:grid tab:grid-cols-2 h-[100%]">
+          <div className="bg-[url('https://i.ibb.co.com/rf5Q8szP/tuhin.png')] bg-no-repeat bg-contain  w-full  z-40 ">
             <div className="flex justify-end flex-col h-full ml-5 ">
-              <p className="text-[24px] mb-3 leading-none ">This is,</p>
-              <div className="text-[130px] flex leading-[86%] uppercase tracking-[-6px] font-medium ">
+              <p className="tab:text-[24px] text-[18px] tab:mb-3 mb-2 leading-none ">This is,</p>
+              <div className="tab:text-[130px] text-[64px] flex leading-[86%] uppercase tracking-[-6px] font-medium ">
                 <p className="hover-large">Tuhin</p>
               </div>
             </div>
@@ -48,10 +48,10 @@ const Hero = ({ contactRef }) => {
           <div className="flex flex-col justify-between h-full gap-8 ">
             <div className="flex-1 ">
               <div className="flex flex-col justify-center h-full">
-                <p className="text-[24px] mb-3 hover-large flex">
+                <p className="tab:text-[24px] text-[18px] mb-3 hover-large flex">
                   Front-end Developer
                 </p>
-                <p className="text-[58px] font-medium uppercase leading-[86%] tracking-[-2px] hover-large flex">
+                <p className="tab:text-[58px] text-[32px] font-medium uppercase leading-[86%] tracking-[-2px] hover-large flex">
                   Creating <br /> Web-magic <br /> with Code
                 </p>
               </div>
@@ -64,7 +64,7 @@ const Hero = ({ contactRef }) => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="flex gap-[10px] group">
+                  <button className="flex gap-[10px] hover:text-[#F1CCFF] group ">
                     <p className="text-[18px] font-medium hover:text-[#F1CCFF] duration-300 transition-all ease-in-out">Github</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
