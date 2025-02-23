@@ -83,7 +83,7 @@ const Projects = forwardRef((props, ref) => {
                 height="100"
                 viewBox="0 0 100 100"
                 fill="none"
-                className=" ease-in-out transform hover:pr-6 duration-700 transition-all"
+                className=" ease-in-out transform md:hover:pr-6 duration-700 transition-all"
               >
                 <path
                   fillRule="evenodd"
