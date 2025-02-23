@@ -7,14 +7,14 @@ const Skills = () => {
         <p className="text-[28px] font-medium">My Skills_</p>
       </div>
 
-      <div className="grid mob:grid-cols-2 gap-[18px] gap-y-12 mt-12 hover-large">
+      <div className="grid tab:grid-cols-2 gap-[18px] gap-y-12 mt-12 hover-large">
         {/* frontend  */}
         <div className="">
-          <p className="mob:text-[18px] text-[16px] mob:mb-3 mb-6">Front-end</p>
+          <p className="tab:text-[18px] text-[16px] tab:mb-3 mb-6">Front-end</p>
 
           {/* one  */}
-          <div className="flex flex-wrap mob:gap-2 gap-1 ">
-            <div className="mob:py-5 py-[14px] mob:pl-5 pl-[14px] mob:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex mob:gap-6 gap-4 items-center">
+          <div className="flex flex-wrap tab:gap-2 gap-1 ">
+            <div className="tab:py-5 py-[14px] tab:pl-5 pl-[14px] tab:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex tab:gap-6 gap-4 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -28,13 +28,13 @@ const Skills = () => {
                 />
               </svg>
               <div>
-                <p className="mob:text-[18px] text-[16px] font-medium text-[#FFFFFF]">HTML</p>
-                <p className="mob:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">HTML</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
               </div>
             </div>
 
             {/* two  */}
-            <div className="mob:py-5 py-[14px] mob:pl-5 pl-[14px] mob:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex mob:gap-6 gap-4 items-center">
+            <div className="tab:py-5 py-[14px] tab:pl-5 pl-[14px] tab:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex tab:gap-6 gap-4 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -54,13 +54,13 @@ const Skills = () => {
                 />
               </svg>
               <div>
-                <p className="mob:text-[18px] text-[16px] font-medium text-[#FFFFFF]">CSS</p>
-                <p className="mob:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">CSS</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
               </div>
             </div>
 
             {/* three  */}
-            <div className="mob:py-5 py-[14px] mob:pl-5 pl-[14px] mob:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex mob:gap-6 gap-4 items-center">
+            <div className="tab:py-5 py-[14px] tab:pl-5 pl-[14px] tab:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex tab:gap-6 gap-4 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -76,15 +76,15 @@ const Skills = () => {
                 />
               </svg>
               <div>
-                <p className="mob:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
+                <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   Bootstrap
                 </p>
-                <p className="mob:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
               </div>
             </div>
 
             {/* three  */}
-            <div className="mob:py-5 py-[14px] mob:pl-5 pl-[14px] mob:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex mob:gap-6 gap-4 items-center">
+            <div className="tab:py-5 py-[14px] tab:pl-5 pl-[14px] tab:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex tab:gap-6 gap-4 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -98,15 +98,15 @@ const Skills = () => {
                 />
               </svg>
               <div>
-                <p className="mob:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
+                <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   Javascript
                 </p>
-                <p className="mob:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
               </div>
             </div>
 
             {/* four  */}
-            <div className="mob:py-5 py-[14px] mob:pl-5 pl-[14px] mob:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex mob:gap-6 gap-4 items-center">
+            <div className="tab:py-5 py-[14px] tab:pl-5 pl-[14px] tab:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex tab:gap-6 gap-4 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -120,15 +120,15 @@ const Skills = () => {
                 />
               </svg>
               <div>
-                <p className="mob:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
+                <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   Tailwind
                 </p>
-                <p className="mob:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
               </div>
             </div>
 
             {/* five  */}
-            <div className="mob:py-5 py-[14px] mob:pl-5 pl-[14px] mob:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex mob:gap-6 gap-4 items-center">
+            <div className="tab:py-5 py-[14px] tab:pl-5 pl-[14px] tab:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex tab:gap-6 gap-4 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -142,15 +142,15 @@ const Skills = () => {
                 />
               </svg>
               <div>
-                <p className="mob:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
+                <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   React js
                 </p>
-                <p className="mob:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
               </div>
             </div>
 
             {/* six  */}
-            <div className="mob:py-5 py-[14px] mob:pl-5 pl-[14px] mob:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex mob:gap-6 gap-4 items-center">
+            <div className="tab:py-5 py-[14px] tab:pl-5 pl-[14px] tab:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex tab:gap-6 gap-4 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -164,14 +164,14 @@ const Skills = () => {
                 />
               </svg>
               <div>
-                <p className="mob:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
+                <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   Next js
                 </p>
-                <p className="mob:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
               </div>
             </div>
             {/* six  */}
-            <div className="mob:py-5 py-[14px] mob:pl-5 pl-[14px] mob:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex mob:gap-6 gap-4 items-center">
+            <div className="tab:py-5 py-[14px] tab:pl-5 pl-[14px] tab:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex tab:gap-6 gap-4 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -185,10 +185,10 @@ const Skills = () => {
                 />
               </svg>
               <div>
-                <p className="mob:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
+                <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   Firebase
                 </p>
-                <p className="mob:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
               </div>
             </div>
           </div>
@@ -196,11 +196,11 @@ const Skills = () => {
 
         {/* backend  */}
         <div className="">
-          <p className="text-[18px] mob:mb-3 mb-6">Back-end</p>
+          <p className="text-[18px] tab:mb-3 mb-6">Back-end</p>
 
           {/* one  */}
-          <div className="flex flex-wrap mob:gap-2 gap-1 ">
-            <div className="mob:py-5 py-[14px] mob:pl-5 pl-[14px] mob:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex mob:gap-6 gap-4 items-center">
+          <div className="flex flex-wrap tab:gap-2 gap-1 ">
+            <div className="tab:py-5 py-[14px] tab:pl-5 pl-[14px] tab:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex tab:gap-6 gap-4 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -216,15 +216,15 @@ const Skills = () => {
                 />
               </svg>
               <div>
-                <p className="mob:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
+                <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   Express Js
                 </p>
-                <p className="mob:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
               </div>
             </div>
 
             {/* two  */}
-            <div className="mob:py-5 py-[14px] mob:pl-5 pl-[14px] mob:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex mob:gap-6 gap-4 items-center">
+            <div className="tab:py-5 py-[14px] tab:pl-5 pl-[14px] tab:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex tab:gap-6 gap-4 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -238,15 +238,15 @@ const Skills = () => {
                 />
               </svg>
               <div>
-                <p className="mob:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
+                <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   Node Js
                 </p>
-                <p className="mob:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
               </div>
             </div>
 
             {/* three  */}
-            <div className="mob:py-5 py-[14px] mob:pl-5 pl-[14px] mob:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex mob:gap-6 gap-4 items-center">
+            <div className="tab:py-5 py-[14px] tab:pl-5 pl-[14px] tab:pr-7 pr-[18px]  bg-[#F1CCFF24] rounded-[12px] flex tab:gap-6 gap-4 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -262,10 +262,10 @@ const Skills = () => {
                 />
               </svg>
               <div>
-                <p className="mob:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
+                <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   MongoDB
                 </p>
-                <p className="mob:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
               </div>
             </div>
           </div>

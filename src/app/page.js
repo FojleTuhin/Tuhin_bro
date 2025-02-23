@@ -30,7 +30,9 @@ export default function Home() {
   return (
     <div>
       <ReactLenis root>
-        <ShortDetails />
+        <div className=""> 
+          <ShortDetails />
+        </div>
         <Navbar
           aboutRef={aboutRef}
           projectsRef={projectsRef}
