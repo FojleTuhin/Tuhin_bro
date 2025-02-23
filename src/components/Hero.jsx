@@ -25,8 +25,11 @@ const Hero = ({ contactRef }) => {
   return (
     <div>
       <div className="max-w-[1320px] mx-auto pt-[110px] pb-10  px-6 relative h-svh min-h-[640px] ">
-        <div className="absolute inset-0 flex items-center justify-center z-0 pointer-events-none">
-          <div className="w-[500px] h-[500px] max-h-[500px] rounded-full relative overflow-hidden mx-auto">
+        <div className="absolute inset-0 flex items-center justify-center z-0 pointer-events-none" style={{ zIndex: 0 }}>
+          <div
+            className="tab:w-[500px] tab:h-[500px] w-[350px] h-[350px] max-h-[500px] rounded-full relative overflow-hidden mx-auto 
+                  sm:w-[350px] sm:h-[350px] flex-shrink-0" 
+          >
             {/* Radial Gradient Background */}
             <div className="absolute inset-0 bg-gradient-radial from-[rgba(241,204,255,0.20)] to-transparent opacity-100" />
 
@@ -35,17 +38,25 @@ const Hero = ({ contactRef }) => {
           </div>
         </div>
 
-        <div className="tab:grid tab:grid-cols-2 h-[100%]">
-          <div className="bg-[url('https://i.ibb.co.com/rf5Q8szP/tuhin.png')] bg-no-repeat bg-contain  w-full  z-40 ">
+        <div className="grid tab:grid-cols-2 h-[100%] z-40" style={{ zIndex: 1 }}>
+          <div className="bg-[url('https://i.ibb.co.com/rf5Q8szP/tuhin.png')] bg-no-repeat bg-contain  w-full     ">
             <div className="flex justify-end flex-col h-full ml-5 ">
-              <p className="tab:text-[24px] text-[18px] tab:mb-3 mb-2 leading-none ">This is,</p>
+              <p className="tab:text-[24px] text-[18px] tab:mb-3 mb-2 leading-none ">
+                This is,
+              </p>
               <div className="tab:text-[130px] text-[64px] flex leading-[86%] uppercase tracking-[-6px] font-medium ">
                 <p className="hover-large">Tuhin</p>
               </div>
             </div>
+
+
+
+
+
+            
           </div>
 
-          <div className="flex flex-col justify-between h-full gap-8 ">
+          <div className="tab:flex flex-col justify-between h-full gap-8 hidden ">
             <div className="flex-1 ">
               <div className="flex flex-col justify-center h-full">
                 <p className="tab:text-[24px] text-[18px] mb-3 hover-large flex">
@@ -65,7 +76,9 @@ const Hero = ({ contactRef }) => {
                   rel="noreferrer"
                 >
                   <button className="flex gap-[10px] hover:text-[#F1CCFF] group ">
-                    <p className="text-[18px] font-medium hover:text-[#F1CCFF] duration-300 transition-all ease-in-out">Github</p>
+                    <p className="text-[18px] font-medium hover:text-[#F1CCFF] duration-300 transition-all ease-in-out">
+                      Github
+                    </p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -97,7 +110,7 @@ const Hero = ({ contactRef }) => {
                   >
                     <path
                       d="M12 16L7 11L8.4 9.55L11 12.15V4H13V12.15L15.6 9.55L17 11L12 16ZM4 20V15H6V18H18V15H20V20H4Z"
-                      fill="currentColor" 
+                      fill="currentColor"
                     />
                   </svg>
                 </button>

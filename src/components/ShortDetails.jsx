@@ -31,12 +31,12 @@ const ShortDetails = () => {
               href="https://www.facebook.com/fojla.tuhin"
               target="_blank"
               rel="noreferrer"
-              className="hover:opacity-80 transition-opacity"
+              className="hover:opacity-80 transition-opacity text-[12px] mob:text-[14px]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
+                width="18"
+                height="18"
                 viewBox="0 0 20 20"
                 fill="none"
               >
@@ -52,7 +52,7 @@ const ShortDetails = () => {
               href="https://www.linkedin.com/in/fojle-tuhin"
               target="_blank"
               rel="noreferrer"
-              className="hover:opacity-80 transition-opacity"
+              className="hover:opacity-80 transition-opacity text-[12px] mob:text-[14px]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
