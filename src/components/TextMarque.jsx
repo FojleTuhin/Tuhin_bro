@@ -8,31 +8,31 @@ const TextMarque = () => {
       <Marquee speed={150}>
         <div className="flex gap-16">
           <div className="flex items-center gap-16">
-            <p className="text-[100px] font-medium text-[#000000] ">
+            <p className="mob:text-[100px] text-[60px] font-medium text-[#000000] ">
               OPEN FOR WORK
             </p>
             <Image src={img} alt="sunflower" className="" />
           </div>
           <div className="flex items-center gap-16">
-            <p className="text-[100px] font-medium text-[#000000] ">
+            <p className="mob:text-[100px] text-[60px] font-medium text-[#000000] ">
               OPEN FOR WORK
             </p>
             <Image src={img} alt="sunflower" className="" />
           </div>
           <div className="flex items-center gap-16">
-            <p className="text-[100px] font-medium text-[#000000] ">
+            <p className="mob:text-[100px] text-[60px] font-medium text-[#000000] ">
               OPEN FOR WORK
             </p>
             <Image src={img} alt="sunflower" className="" />
           </div>
           <div className="flex items-center gap-16">
-            <p className="text-[100px] font-medium text-[#000000] ">
+            <p className="mob:text-[100px] text-[60px] font-medium text-[#000000] ">
               OPEN FOR WORK
             </p>
             <Image src={img} alt="sunflower" className="" />
           </div>
           <div className="flex items-center gap-16">
-            <p className="text-[100px] font-medium text-[#000000] ">
+            <p className="mob:text-[100px] text-[60px] font-medium text-[#000000] ">
               OPEN FOR WORK
             </p>
             <Image src={img} alt="sunflower" className="" />

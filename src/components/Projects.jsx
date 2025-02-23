@@ -33,12 +33,12 @@ const Projects = forwardRef((props, ref) => {
   ];
   return (
     <div ref={ref} className="max-w-[1320px] mx-auto pb-[196px] z-20 px-8">
-      <div className="grid mob:grid-cols-2 mb-16 ">
-        <p className="mob:text-[112px] text-[58px] mob:order-1 order-2 font-medium leading-[86%] tracking-[-6px]">
+      <div className="grid tab:grid-cols-2 mb-16 ">
+        <p className="tab:text-[112px] text-[58px] tab:order-1 order-2 font-medium leading-[86%] tracking-[-6px]">
           MY PROJECTS
         </p>
-        <div className="flex justify-center mob:justify-end mob:items-end mob:order-2 order-1 mb-12 mob:mb-0">
-          <p className="mob:text-[58px] text-[32px] font-medium leading-[86%]  tracking-[-2px]">
+        <div className="flex justify-center tab:justify-end tab:items-end tab:order-2 order-1 mb-12 tab:mb-0">
+          <p className="tab:text-[58px] text-[32px] font-medium leading-[86%]  tracking-[-2px]">
             20+ <br /> PROJECTS <br /> COMPLETED
           </p>
         </div>
@@ -52,23 +52,23 @@ const Projects = forwardRef((props, ref) => {
           rel="noreferrer"
           className="block"
         >
-          <div className="group mob:py-12 py-8  border-y border-[#F1CCFF] flex justify-between gap-[18px] transition-all duration-700 ease-in-out hover:bg-[#F1CCFF] hover:cursor-pointer">
-            <div className="hidden mob:flex items-center">
+          <div className="group tab:py-12 py-8  border-y border-[#F1CCFF] flex justify-between gap-[18px] transition-all duration-700 ease-in-out hover:bg-[#F1CCFF] hover:cursor-pointer">
+            <div className="hidden tab:flex items-center">
               <p className="flex group-hover:pl-6 duration-700 transition-all items-center w-[200px] text-white group-hover:text-black">
                 {project.no}/
               </p>
             </div>
             <div className="flex-1">
-              <div className="flex flex-col w-full gap-4 gap-y-6">
-                <div className="mob:w-[65%] ">
-                  <p className="mob:text-[48px] text-[24px] font-medium text-[#F1CCFF] group-hover:text-black leading-none">
+              <div className="flex flex-col tab:flex-row w-full gap-4 gap-y-6">
+                <div className="tab:w-[65%] ">
+                  <p className="tab:text-[48px] text-[24px] font-medium text-[#F1CCFF] group-hover:text-black leading-none">
                     {project.title}
                   </p>
-                  <p className="mob:mt-3 mt-1 text-[14px] mob:text-[16px] text-[#FFFFFFB8] group-hover:text-[#000000B8] leading-none">
+                  <p className="tab:mt-3 mt-1 text-[14px] tab:text-[16px] text-[#FFFFFFB8] group-hover:text-[#000000B8] leading-none">
                     {project.description}
                   </p>
                 </div>
-                <div className="flex text-[14px] mob:text-[16px] items-end mob:w-[35%]">
+                <div className="flex text-[14px] tab:text-[16px] items-end tab:w-[35%]">
                   <p className="text-white group-hover:text-black leading-none">
                     {project.tech}
                   </p>
@@ -76,7 +76,7 @@ const Projects = forwardRef((props, ref) => {
               </div>
             </div>
 
-            <div className="mob:w-[200px] w-[70px] flex justify-end mob:items-end items-center ease-in-out transform group-hover:pr-6 duration-700 transition-all">
+            <div className="tab:w-[200px] w-[70px] flex justify-end tab:items-end items-center ease-in-out transform group-hover:pr-6 duration-700 transition-all">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="100"

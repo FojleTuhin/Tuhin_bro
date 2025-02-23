@@ -3,11 +3,11 @@ import { forwardRef } from "react";
 const Contact = forwardRef((props, ref) => {
   return (
     <div ref={ref}>
-      <div className="max-w-[651px] mx-auto py-20" id="contact">
+      <div className="max-w-[651px] mx-auto py-20 px-6" id="contact">
         <p className="text-center text-[48px] text-[#F1CCFF] font-medium mb-12">
           Contact
         </p>
-        <div className="grid grid-cols-2 gap-[18px] gap-y-8">
+        <div className="grid mob:grid-cols-2 gap-[18px] gap-y-8">
           <div className="space-y-3">
             <label htmlFor="name" className="text-[14px] ml-6">
               Name
@@ -30,15 +30,18 @@ const Contact = forwardRef((props, ref) => {
               className="w-full px-6 py-[18px] rounded-full bg-[#F1CCFF1F] text-white placeholder-gray-500  focus:border-[#F1CCFF] focus:ring-2 focus:ring-[#F1CCFF] outline-none focus:bg-none"
             />
           </div>
-          <div className="space-y-3 col-span-2">
+          <div className="space-y-3 mob:col-span-2">
             <label htmlFor="message" className="text-[14px] ml-6">
               Message
             </label>
             <textarea
               id="message"
-              type="text"
               placeholder="message"
-              className="w-full px-6 py-[18px] rounded-[24px] bg-[#F1CCFF1F] text-white placeholder-gray-500  focus:border-[#F1CCFF] focus:ring-2 focus:ring-[#F1CCFF] outline-none focus:bg-none h-[125px]"
+              className="w-full px-6 py-[18px] rounded-[24px] bg-[#F1CCFF1F] text-white placeholder-gray-500 focus:border-[#F1CCFF] focus:ring-2 focus:ring-[#F1CCFF] outline-none min-h-[125px] resize-none overflow-hidden"
+              onInput={(e) => {
+                e.target.style.height = "auto"; 
+                e.target.style.height = e.target.scrollHeight + "px"; 
+              }}
             />
           </div>
         </div>

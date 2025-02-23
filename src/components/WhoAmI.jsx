@@ -3,12 +3,12 @@ import React, { forwardRef } from "react";
 const WhoAmI = forwardRef((props, ref) => {
   return (
     <div ref={ref} className="pt-[132px] pb-24 max-w-[1320px] mx-auto px-8 ">
-      <div className="grid grid-cols-2 gap-y-24">
+      <div className="grid mob:grid-cols-3 lg:grid-cols-2 gap-y-6">
         <div>
           <p className="text-[28px] font-medium">WHO AM I_</p>
         </div>
-        <div>
-          <p className="text-[24px] hover-large">
+        <div className="mob:col-span-2 lg:col-span-1">
+          <p className="lg:text-[24px] sm:text-[18px] text-[14px] pl-10 mob:pl-0 hover-large">
             I specialize in building fast, responsive, and user-friendly
             websites that not only look great but also perform flawlessly. With
             expertise in modern technologies like React, Vue, and Tailwind, I
@@ -16,34 +16,46 @@ const WhoAmI = forwardRef((props, ref) => {
             engagement
           </p>
         </div>
+      </div>
 
-        <div className="grid grid-cols-3 gap-[15px]">
-          <div className="py-[30px] px-8 rounded-[12px] bg-[#f1ccff24] h-[271px] w-auto">
-            <p className="text-[18px] font-medium mb-[62px] text-[#FFFFFF]">
+      <div className="grid xl:grid-cols-2 mt-24">
+        <div className="grid mob:grid-cols-2 sm:grid-cols-3 gap-[15px] ">
+          <div className="lg:py-[30px] lg:px-8 md:p-6 p-5 rounded-[12px] bg-[#f1ccff24] h-auto w-full grid grid-cols-2 sm:grid-cols-none gap-2">
+            <p className="lg:text-[18px] font-medium mb-[62px] text-[#FFFFFF] leading-none lg:leading-normal">
               Education
             </p>
-            <p className="text-[#FFFFFF] font-medium mb-1">CSE, </p>
-            <p className="text-[#FFFFFFB8]">
-              Green University of Bangladesh, 2020-2125
-            </p>
+            <div>
+              <p className="text-[#FFFFFF] font-medium mb-1 leading-none">
+                CSE,
+              </p>
+              <p className="text-[#FFFFFFB8] text-[12px] lg:text-[16px]">
+                Green University of Bangladesh, 2020-2125
+              </p>
+            </div>
           </div>
-          <div className="py-[30px] px-8 rounded-[12px] bg-[#f1ccff24] h-[271px] w-auto">
-            <p className="text-[18px] font-medium mb-[62px] text-[#FFFFFF]">
+          <div className="lg:py-[30px] lg:px-8 md:p-6 p-5 rounded-[12px] bg-[#f1ccff24] h-auto w-full grid grid-cols-2 sm:grid-cols-none gap-2">
+            <p className="lg:text-[18px] font-medium mb-[62px] text-[#FFFFFF] leading-none lg:leading-normal">
               Experience
             </p>
-            <p className="text-[#FFFFFF] font-medium mb-1">
-              Junior Front-end Developer,{" "}
-            </p>
-            <p className="text-[#FFFFFFB8]">
-              Bismo - November 2024 - Currently
-            </p>
+            <div>
+              <p className="text-[#FFFFFF] font-medium mb-1 leading-none">
+                Junior Front-end Developer,
+              </p>
+              <p className="text-[#FFFFFFB8] text-[12px] lg:text-[16px]">
+                Bismo - November 2024 - Currently
+              </p>
+            </div>
           </div>
-          <div className="py-[30px] px-8 rounded-[12px] bg-[#f1ccff24] h-[271px] w-auto">
-            <p className="text-[18px] font-medium mb-[62px] text-[#FFFFFF]">
+          <div className="lg:py-[30px] lg:px-8 md:p-6 p-5 rounded-[12px] bg-[#f1ccff24] h-auto w-full grid grid-cols-2 sm:grid-cols-none gap-2">
+            <p className="lg:text-[18px] font-medium mb-[62px] text-[#FFFFFF] leading-none lg:leading-normal">
               I Love
             </p>
-            {/* <p className="text-[#FFFFFF] font-medium mb-1">Junior Front-end Developer, </p> */}
-            <p className="text-[#FFFFFF]">Playing Cricket & Keyboard</p>
+            <div>
+              <p></p>
+              <p className="text-[#FFFFFFB8] text-[12px] lg:text-[16px]">
+                Playing Cricket & Keyboard
+              </p>
+            </div>
           </div>
         </div>
       </div>
