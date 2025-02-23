@@ -8,34 +8,34 @@ const TextMarque = () => {
       <Marquee speed={150}>
         <div className="flex gap-16">
           <div className="flex items-center gap-16">
-            <p className="mob:text-[100px] text-[60px] font-medium text-[#000000] ">
+            <p className="tab:text-[100px] text-[48px] md:text-[60px] font-medium text-[#000000] ">
               OPEN FOR WORK
             </p>
-            <Image src={img} alt="sunflower" className="" />
+            <Image src={img} alt="sunflower" className="w-12 md:w-auto h-auto" />
           </div>
           <div className="flex items-center gap-16">
-            <p className="mob:text-[100px] text-[60px] font-medium text-[#000000] ">
+            <p className="tab:text-[100px] text-[48px] md:text-[60px] font-medium text-[#000000] ">
               OPEN FOR WORK
             </p>
-            <Image src={img} alt="sunflower" className="" />
+            <Image src={img} alt="sunflower" className="w-12 md:w-auto h-auto" />
           </div>
           <div className="flex items-center gap-16">
-            <p className="mob:text-[100px] text-[60px] font-medium text-[#000000] ">
+            <p className="tab:text-[100px] text-[48px] md:text-[60px] font-medium text-[#000000] ">
               OPEN FOR WORK
             </p>
-            <Image src={img} alt="sunflower" className="" />
+            <Image src={img} alt="sunflower" className="w-12 md:w-auto h-auto" />
           </div>
           <div className="flex items-center gap-16">
-            <p className="mob:text-[100px] text-[60px] font-medium text-[#000000] ">
+            <p className="tab:text-[100px] text-[48px] md:text-[60px] font-medium text-[#000000] ">
               OPEN FOR WORK
             </p>
-            <Image src={img} alt="sunflower" className="" />
+            <Image src={img} alt="sunflower" className="w-12 md:w-auto h-auto" />
           </div>
           <div className="flex items-center gap-16">
-            <p className="mob:text-[100px] text-[60px] font-medium text-[#000000] ">
+            <p className="tab:text-[100px] text-[48px] md:text-[60px] font-medium text-[#000000] ">
               OPEN FOR WORK
             </p>
-            <Image src={img} alt="sunflower" className="" />
+            <Image src={img} alt="sunflower" className="w-12 md:w-auto h-auto" />
           </div>
         </div>
       </Marquee>
