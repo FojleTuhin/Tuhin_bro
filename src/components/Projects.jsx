@@ -34,7 +34,7 @@ const Projects = forwardRef((props, ref) => {
   return (
     <div ref={ref} className="max-w-[1320px] mx-auto pb-[196px] z-20 px-6">
       <div className="grid tab:grid-cols-2 mb-16 ">
-        <p className="tab:text-[112px] text-[58px] tab:order-1 order-2 font-medium leading-[86%] tracking-[-6px]">
+        <p className="sm:text-[112px] text-[58px] sMob:text-[68px] mob:text-[86px]  tab:order-1 order-2 font-medium leading-[86%] tracking-[-6px]">
           MY PROJECTS
         </p>
         <div className="flex justify-center tab:justify-end tab:items-end tab:order-2 order-1 mb-12 tab:mb-0">
@@ -52,9 +52,9 @@ const Projects = forwardRef((props, ref) => {
           rel="noreferrer"
           className="block"
         >
-          <div className="group tab:py-12 py-8  border-y border-[#F1CCFF] flex justify-between gap-[18px] transition-all duration-700 ease-in-out hover:bg-[#F1CCFF] hover:cursor-pointer">
-            <div className="hidden tab:flex items-center">
-              <p className="flex group-hover:pl-6 duration-700 transition-all items-center w-[200px] text-white group-hover:text-black">
+          <div className="group tab:py-12 py-8 px-4 mob:px-0  border-y border-[#F1CCFF] flex justify-between gap-[18px] transition-all duration-700 ease-in-out hover:bg-[#F1CCFF] hover:cursor-pointer">
+            <div className="hidden mob:flex items-center">
+              <p className="flex group-hover:pl-6 duration-700 transition-all items-center lg:w-[200px] md:w-[70px] text-white group-hover:text-black">
                 {project.no}/
               </p>
             </div>
@@ -76,11 +76,11 @@ const Projects = forwardRef((props, ref) => {
               </div>
             </div>
 
-            <div className="tab:w-[200px] w-[70px] flex justify-end tab:items-end items-center ease-in-out transform group-hover:pr-6 duration-700 transition-all">
+            <div className="lg:w-[200px] md:w-[70px] flex justify-end tab:items-end items-center tab:ease-in-out tab:transform tab:group-hover:pr-6 tab:duration-700 tab:transition-all ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="100"
-                height="100"
+                width="70"
+                height="70"
                 viewBox="0 0 100 100"
                 fill="none"
                 className=" ease-in-out transform md:hover:pr-6 duration-700 transition-all"

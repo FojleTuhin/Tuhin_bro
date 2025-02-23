@@ -22,6 +22,7 @@ export default {
         'tab':'876px',
         'lTab':'900px',
         'mob':'500px',
+        'sMob':'375px',
 
       },  
     },
