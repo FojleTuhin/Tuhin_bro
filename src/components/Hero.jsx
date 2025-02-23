@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "../app/globals.css";
 
-const Hero = ({contactRef}) => {
+const Hero = ({ contactRef }) => {
   const [isClicked, setIsClicked] = useState(false);
 
   const handleClick = () => {
@@ -16,13 +16,11 @@ const Hero = ({contactRef}) => {
     setTimeout(() => setIsClicked(false), 1000);
   };
 
-
   const handleScrollToContact = () => {
     if (contactRef.current) {
       contactRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
-
 
   return (
     <div>
@@ -39,9 +37,7 @@ const Hero = ({contactRef}) => {
 
         <div className="grid grid-cols-2 h-[100%]">
           <div className="bg-[url('https://i.ibb.co.com/rf5Q8szP/tuhin.png')] bg-no-repeat bg-contain w-full  z-40 ">
-            <div
-              className="flex justify-end flex-col h-full ml-5 "
-            >
+            <div className="flex justify-end flex-col h-full ml-5 ">
               <p className="text-[24px] mb-3 leading-none ">This is,</p>
               <div className="text-[130px] flex leading-[86%] uppercase tracking-[-6px] font-medium ">
                 <p className="hover-large">Tuhin</p>
@@ -52,7 +48,9 @@ const Hero = ({contactRef}) => {
           <div className="flex flex-col justify-between h-full gap-8 ">
             <div className="flex-1 ">
               <div className="flex flex-col justify-center h-full">
-                <p className="text-[24px] mb-3 hover-large flex">Front-end Developer</p>
+                <p className="text-[24px] mb-3 hover-large flex">
+                  Front-end Developer
+                </p>
                 <p className="text-[58px] font-medium uppercase leading-[86%] tracking-[-2px] hover-large flex">
                   Creating <br /> Web-magic <br /> with Code
                 </p>
@@ -66,24 +64,25 @@ const Hero = ({contactRef}) => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="flex gap-[10px]">
-                    <p className="text-[18px] font-medium">Github</p>
+                  <button className="flex gap-[10px] group">
+                    <p className="text-[18px] font-medium hover:text-[#F1CCFF] duration-300 transition-all ease-in-out">Github</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
+                      className="group-hover:text-[#F1CCFF] "
                     >
                       <path
                         d="M12 2C10.6868 2 9.38642 2.25866 8.17317 2.7612C6.95991 3.26375 5.85752 4.00035 4.92893 4.92893C3.05357 6.8043 2 9.34784 2 12C2 16.42 4.87 20.17 8.84 21.5C9.34 21.58 9.5 21.27 9.5 21V19.31C6.73 19.91 6.14 17.97 6.14 17.97C5.68 16.81 5.03 16.5 5.03 16.5C4.12 15.88 5.1 15.9 5.1 15.9C6.1 15.97 6.63 16.93 6.63 16.93C7.5 18.45 8.97 18 9.54 17.76C9.63 17.11 9.89 16.67 10.17 16.42C7.95 16.17 5.62 15.31 5.62 11.5C5.62 10.39 6 9.5 6.65 8.79C6.55 8.54 6.2 7.5 6.75 6.15C6.75 6.15 7.59 5.88 9.5 7.17C10.29 6.95 11.15 6.84 12 6.84C12.85 6.84 13.71 6.95 14.5 7.17C16.41 5.88 17.25 6.15 17.25 6.15C17.8 7.5 17.45 8.54 17.35 8.79C18 9.5 18.38 10.39 18.38 11.5C18.38 15.32 16.04 16.16 13.81 16.41C14.17 16.72 14.5 17.33 14.5 18.26V21C14.5 21.27 14.66 21.59 15.17 21.5C19.14 20.16 22 16.42 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2Z"
-                        fill="white"
+                        fill="currentColor"
                       />
                     </svg>
                   </button>
                 </a>
                 <button
-                  className="flex gap-[10px]"
+                  className="flex gap-[10px] hover:text-[#F1CCFF] group"
                   onClick={handleClick}
                   disabled={isClicked}
                 >
@@ -94,24 +93,28 @@ const Hero = ({contactRef}) => {
                     height="24"
                     viewBox="0 0 24 24"
                     fill="none"
-                    className={isClicked ? "animate-bounce" : ""}
+                    className="group-hover:text-[#F1CCFF] "
                   >
                     <path
                       d="M12 16L7 11L8.4 9.55L11 12.15V4H13V12.15L15.6 9.55L17 11L12 16ZM4 20V15H6V18H18V15H20V20H4Z"
-                      fill="white"
+                      fill="currentColor" 
                     />
                   </svg>
                 </button>
               </div>
               <div className="flex  ">
-                <button onClick={ handleScrollToContact} className="py-2 px-3 rounded-full bg-[#F1CCFF] text-[18px] font-medium text-[#000] flex items-center gap-[10px] ">
-                  <p>Say hello</p>
+                <button
+                  onClick={handleScrollToContact}
+                  className="py-2 px-3 rounded-full bg-[#F1CCFF] text-[18px] font-medium text-[#000] flex items-center gap-[10px] hover:bg-[#fff] hover:gap-[18px]  duration-200 transition-all ease-in-out group "
+                >
+                  <p className="">Say hello</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="17"
                     viewBox="0 0 16 17"
                     fill="none"
+                    className="group-hover:-rotate-45 duration-300 transition-all ease-in-out "
                   >
                     <g clipPath="url(#clip0_1_210)">
                       <path
