@@ -18,9 +18,16 @@ export default function RootLayout({ children }) {
       <head>
         <link
           rel="icon"
-          href="https://i.ibb.co.com/G7JdQDJ/logo.png"
-          sizes="any"
+          href="https://i.ibb.co.com/zWp6TPgt/logoT.png"
+          type="image/svg+xml"
         />
+        <meta property="og:title" content="Fojle Tuhin" />
+        <meta property="og:description" content="MERN Stack Developer" />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co.com/zWp6TPgt/logoT.png"
+        />
+        <meta property="og:type" content="website" />
       </head>
       <body className={manrope.className}>{children}</body>
     </html>

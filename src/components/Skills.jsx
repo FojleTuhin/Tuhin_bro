@@ -1,8 +1,9 @@
-import Image from "next/image";
+import { forwardRef } from "react";
 
-const Skills = () => {
+const Skills =forwardRef((props, ref) => {
+  
   return (
-    <div className="max-w-[1320px] mx-auto py-[128px] px-6">
+    <div ref={ref} className="max-w-[1320px] mx-auto py-[128px] px-6">
       <div>
         <p className="text-[28px] font-medium">My Skills_</p>
       </div>
@@ -273,6 +274,6 @@ const Skills = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Skills;

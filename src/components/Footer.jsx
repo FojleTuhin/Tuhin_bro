@@ -3,13 +3,20 @@ import { ArrowUp } from "lucide-react";
 import Image from "next/image";
 import vector from "../../public/Vector.svg";
 
-const Footer = () => {
+const Footer = ({skillsRef}) => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   };
+
+
+  const scrollToSection = (ref) => {
+    if (ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" })
+    }
+  }
   return (
     <div className="px-6">
       <div className="bg-[#F1CCFF] rounded-[12px] max-w-[1320px]  mx-auto lg:py-20 pt-16 pb-10 px-8 md:px-12 lTab:px-16 lg:px-20 mb-6">
@@ -37,7 +44,7 @@ const Footer = () => {
               <p className="lg:text-[18px] font-medium mb-12">
                 Built with passion & code.
               </p>
-              <p className="mb-[10px] lg:text-[18px] font-medium underline cursor-pointer">
+              <p onClick={() => scrollToSection(skillsRef)} className="mb-[10px] lg:text-[18px] font-medium underline cursor-pointer">
                 Skills
               </p>
               <p className="mb-[10px] lg:text-[18px] font-medium underline cursor-pointer">

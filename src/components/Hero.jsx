@@ -21,7 +21,7 @@ const Hero = ({ contactRef }) => {
 
   return (
     <div>
-      <div className="max-w-[1320px] mx-auto pt-[110px] sm:pb-10 px-6 relative h-svh min-h-[640px] overflow-hidden">
+      <div className="max-w-[1320px] mx-auto pt-[110px] sm:pb-4 px-6 relative h-svh min-h-[640px] overflow-hidden">
         {/* Circle background - moved to top of component with lower z-index */}
         <div className="absolute inset-0 flex items-center justify-center -z-10 pointer-events-none">
           <div className="tab:w-[500px] tab:h-[500px] w-[450px] h-[450px] max-h-[500px] rounded-full relative overflow-hidden mx-auto sm:w-[350px] sm:h-[350px] flex-shrink-0">
@@ -40,7 +40,7 @@ const Hero = ({ contactRef }) => {
                 This is,
               </p>
               <div className="tab:text-[130px] sm:text-[90px] text-[64px] mb-8 sm:mb-0 flex leading-[86%] uppercase tracking-[-6px] font-medium">
-                <p className="md:hover-large">Tuhin</p>
+                <p className="hover-large">Tuhin</p>
               </div>
 
               <div className="flex justify-center sm:hidden">

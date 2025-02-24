@@ -22,7 +22,7 @@ body {
 
 
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
   #cursor {
     width: 24px;
     height: 24px;
@@ -65,7 +65,7 @@ body {
   
 }
 
-@media (max-width: 499px) {
+@media (max-width: 699px) {
   * {
     cursor: auto;
   }

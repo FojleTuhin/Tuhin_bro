@@ -18,6 +18,7 @@ export default function Home() {
   const aboutRef = useRef(null);
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
+  const skillsRef = useRef(null);
 
   useEffect(() => {
     initCursor();
@@ -43,11 +44,11 @@ export default function Home() {
           <div className="border-b pt-14 max-w-[1320px] mx-auto "></div>
         </div>
         <WhoAmI ref={aboutRef} />
-        <Skills />
+        <Skills ref={skillsRef}/>
         <Projects ref={projectsRef} />
         <TextMarque />
         <Contact ref={contactRef} />
-        <Footer />
+        <Footer skillsRef={skillsRef}/>
         <div
           id="cursor"
           className="fixed w-4 h-4 bg-primary rounded-full pointer-events-none z-50 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center"
