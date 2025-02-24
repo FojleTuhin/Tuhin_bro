@@ -45,28 +45,6 @@ body {
     height: 350px;
     transition: transform 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out;
   }
-/* 
-
-  #livePreview {
-    width: 24px;
-    height: 24px;
-    background: #F1CCFF;
-    border-radius: 50%;
-    position: fixed;
-    pointer-events: none;
-    mix-blend-mode: difference;
-    z-index: 9999;
-    transition: transform 0.6s ease-out, width 0.6s ease-out, height 0.6s ease-out, opacity 0.6s ease-out;
-    will-change: transform;
-  }
-
-
-  #livePreview .large {
-    width: 350px; 
-    height: 350px;
-    transition: transform 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out;
-  } */
-
 
 
 
@@ -87,7 +65,7 @@ body {
     opacity: 0;
     
     transform: scale(1);
-    transition: transform 0.6s ease-out, opacity 0.4s ease-out;
+    transition: transform 0.6s ease-in-out, opacity 0.4s ease-in-out;
     will-change: transform, opacity;
   
     display: flex;
@@ -96,8 +74,9 @@ body {
   }
   
   #livePreview.large {
-    transform: scale(6); 
+    transform: scale(5); 
     opacity: 1; 
+    transition: transform 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out;
   }
   
   
