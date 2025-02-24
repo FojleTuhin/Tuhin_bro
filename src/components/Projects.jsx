@@ -32,7 +32,7 @@ const Projects = forwardRef((props, ref) => {
     },
   ];
   return (
-    <div ref={ref} className="max-w-[1320px] mx-auto pb-[196px] z-20 px-6" >
+    <div ref={ref} className="max-w-[1320px] mx-auto pb-[196px] z-20 px-6">
       <div className="grid tab:grid-cols-2 mb-16 ">
         <p className="sm:text-[112px] text-[58px] sMob:text-[68px] mob:text-[86px]  tab:order-1 order-2 font-medium leading-[86%] tracking-[-6px]">
           MY PROJECTS
@@ -50,7 +50,7 @@ const Projects = forwardRef((props, ref) => {
           key={index}
           target="_blank"
           rel="noreferrer"
-          className="block projects-id"
+          className="block hover-medium projects-id"
         >
           <div className="group tab:py-12 py-8 px-4 mob:px-0  border-y border-[#F1CCFF] flex justify-between gap-[18px] transition-all duration-700 ease-in-out hover:bg-[#F1CCFF] hover:cursor-pointer">
             <div className="hidden mob:flex items-center">

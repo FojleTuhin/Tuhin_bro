@@ -1,31 +1,21 @@
 export const initCursor = () => {
   const cursor = document.getElementById("cursor");
-  const livePreview = document.getElementById("livePreview");
-  if (!cursor || !livePreview) return;
+  const seeLive = cursor.querySelector(".seeLive");  // Select the 'SEE LIVE' text
+
+  if (!cursor || !seeLive) return; // Ensure both cursor and seeLive exist
 
   let mouseMoved = false;
-
-  // Cursor movement logic
+  seeLive.style.opacity = "0";
   document.addEventListener("mousemove", (e) => {
     mouseMoved = true;
     requestAnimationFrame(() => {
       cursor.style.left = `${e.clientX}px`;
       cursor.style.top = `${e.clientY}px`;
     });
-
-    if (livePreview.style.display === "block") {
-      requestAnimationFrame(() => {
-        livePreview.style.left = `${e.clientX}px`;
-        livePreview.style.top = `${e.clientY}px`;
-      });
-    }
   });
 
-  // Elements that will trigger the large cursor
-  const hoverElements = document.querySelectorAll(
-    ".hover-large"
-  );
-
+  // Hover logic to enlarge the cursor
+  const hoverElements = document.querySelectorAll(".hover-large");
   hoverElements.forEach((element) => {
     element.addEventListener("mouseenter", () => {
       cursor.classList.add("large");
@@ -38,20 +28,19 @@ export const initCursor = () => {
     });
   });
 
-  // Live preview show/hide on projects-id hover and hide cursor
+  // Show 'SEE LIVE' text only on projects-id hover
   const projects = document.querySelectorAll(".projects-id");
-
   projects.forEach((project) => {
     project.addEventListener("mouseenter", () => {
-      livePreview.style.display = "block";
-      livePreview.classList.add("large");
-      cursor.style.opacity = "0"; // Hide cursor
+      // Show the 'SEE LIVE' text by changing opacity to 1
+      seeLive.style.opacity = "1";
+      cursor.classList.add("medium");
     });
 
     project.addEventListener("mouseleave", () => {
-      livePreview.style.display = "none";
-      cursor.style.opacity = "1"; // Show cursor back
-      livePreview.classList.remove("large");
+      // Hide the 'SEE LIVE' text by changing opacity back to 0
+      seeLive.style.opacity = "0";
+      cursor.classList.remove("medium");
     });
   });
 };

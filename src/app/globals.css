@@ -46,39 +46,21 @@ body {
     transition: transform 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out;
   }
 
-
-
-
-
-
-
-  #livePreview {
-    width: 24px;
-    height: 24px;
-    background: #F1CCFF;
-    color: #0a0a0a;
-    border-radius: 50%;
-    position: fixed;
-    pointer-events: none;
-    mix-blend-mode: difference;
-    z-index: 9999;
-    opacity: 0;
-    
-    transform: scale(1);
-    transition: transform 0.6s ease-in-out, opacity 0.4s ease-in-out;
-    will-change: transform, opacity;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #livePreview.large {
-    transform: scale(5); 
-    opacity: 1; 
+  #cursor.medium {
+    width: 150px; 
+    height: 150px;
     transition: transform 0.6s ease-in-out, width 0.6s ease-in-out, height 0.6s ease-in-out;
   }
+
+
+
+  .live {
+    display: none;
+  }
   
+
+  
+
   
   
 }
@@ -92,9 +74,6 @@ body {
     display: none;
   }
 
-  #livePreview {
-    display: none;
-  }
 }
 
 

@@ -50,16 +50,11 @@ export default function Home() {
         <Footer />
         <div
           id="cursor"
-          className="fixed w-4 h-4 bg-primary rounded-full pointer-events-none z-50 -translate-x-1/2 -translate-y-1/2"
-        />
-
-        <div
-          id="livePreview"
-          className="fixed flex items-center justify-center bg-primary rounded-full pointer-events-none z-50 -translate-x-1/2 -translate-y-1/2 transition-transform duration-500 "
+          className="fixed w-4 h-4 bg-primary rounded-full pointer-events-none z-50 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center"
         >
-          <p className="font-medium leading-none flex justify-center items-center h-full w-full  text-center text-[7px] ">SEE LIVE</p>
-
+          <p className="seeLive text-black text-[42px] text-center leading-none">SEE LIVE</p>
         </div>
+
       </ReactLenis>
     </div>
   );
