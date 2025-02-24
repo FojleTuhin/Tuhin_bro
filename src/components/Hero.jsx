@@ -33,7 +33,7 @@ const Hero = ({ contactRef }) => {
         </div>
 
         {/* Main content - removed explicit z-index */}
-        <div className="grid sm:grid-cols-2 h-[calc(100%-40px)] sm:h-[100%]">
+        <div className="grid sm:grid-cols-2 h-[calc(100%-60px)] sm:h-[100%]">
           <div className="bg-[url('https://i.ibb.co.com/rf5Q8szP/tuhin.png')] h-full bg-no-repeat bg-contain w-full pb-5">
             <div className="flex justify-end flex-col h-full ml-5">
               <p className="tab:text-[24px] text-[18px] tab:mb-3 mb-2 leading-none">
@@ -55,10 +55,6 @@ const Hero = ({ contactRef }) => {
               </div>
             </div>
           </div>
-
-          
-
-          
 
           <div className=" flex-col justify-between h-full gap-8 pb-5 hidden sm:flex">
             <div className="flex-1 ">
