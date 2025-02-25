@@ -39,7 +39,7 @@ const WhoAmI = forwardRef((props, ref) => {
             </p>
             <div>
               <p className="text-[#FFFFFF] font-medium mb-1 leading-none">
-                Junior Front-end Developer,
+                Product Engineer, Frontend
               </p>
               <p className="text-[#FFFFFFB8] text-[12px] lg:text-[16px]">
                 Bismo - November 2024 - Currently
