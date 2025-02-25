@@ -104,7 +104,7 @@ const ShortDetails = () => {
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                className="group-hover:text-[#F1CCFF] sm:hidden"
+                className="group-hover:text-[#F1CCFF] hidden"
               >
                 <path
                   d="M12 16L7 11L8.4 9.55L11 12.15V4H13V12.15L15.6 9.55L17 11L12 16ZM4 20V15H6V18H18V15H20V20H4Z"
