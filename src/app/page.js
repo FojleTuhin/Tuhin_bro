@@ -41,7 +41,7 @@ export default function Home() {
         />
         <Hero contactRef={contactRef} />
         <div className="px-6">
-          <div className="border-b pt-14 max-w-[1320px] mx-auto "></div>
+          <div className="border-b pt-10 max-w-[1320px] mx-auto "></div>
         </div>
         <WhoAmI ref={aboutRef} />
         <Skills ref={skillsRef}/>

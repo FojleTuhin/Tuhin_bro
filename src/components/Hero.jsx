@@ -158,7 +158,7 @@ const Hero = ({ contactRef }) => {
 
       {/* design */}
 
-      <div className="sm:hidden  grid grid-cols-2 px-6">
+      <div className="sm:hidden  grid grid-cols-2 px-6 -mt-10">
         <div className="space-y-3">
           <a
             href="https://github.com/FojleTuhin"

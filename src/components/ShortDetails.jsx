@@ -117,7 +117,7 @@ const ShortDetails = () => {
 
         <div className="flex flex-col items-center justify-center h-full gap-8">
           <p className=" font-medium rotate-270 [writing-mode:vertical-rl] tracking-wider hidden md:block">
-            GMT + 6,{" "}
+            GMT + 6,
           </p>
           <p className=" font-medium rotate-270 [writing-mode:vertical-rl] tracking-wider">
             {time}
