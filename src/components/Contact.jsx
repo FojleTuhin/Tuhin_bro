@@ -54,7 +54,9 @@ const Contact = forwardRef((props, ref) => {
         <form onSubmit={handleSubmit}>
           <div className="grid mob:grid-cols-2 gap-[18px] gap-y-8">
             <div className="space-y-3">
-              <label htmlFor="name" className="text-[14px] ml-6">Name</label>
+              <label htmlFor="name" className="text-[14px] ml-6">
+                Name
+              </label>
               <input
                 id="name"
                 required
@@ -67,7 +69,9 @@ const Contact = forwardRef((props, ref) => {
               />
             </div>
             <div className="space-y-3">
-              <label htmlFor="email" className="text-[14px] ml-6">Email</label>
+              <label htmlFor="email" className="text-[14px] ml-6">
+                Email
+              </label>
               <input
                 id="email"
                 name="email"
@@ -80,7 +84,9 @@ const Contact = forwardRef((props, ref) => {
               />
             </div>
             <div className="space-y-3 mob:col-span-2">
-              <label htmlFor="message" className="text-[14px] ml-6">Message</label>
+              <label htmlFor="message" className="text-[14px] ml-6">
+                Message
+              </label>
               <textarea
                 id="message"
                 name="message"
@@ -103,9 +109,7 @@ const Contact = forwardRef((props, ref) => {
             </button>
           </div>
 
-          {status && (
-            <p className="text-center mt-4 text-white">{status}</p>
-          )}
+          {status && <p className="text-center mt-4 text-white">{status}</p>}
         </form>
       </div>
     </div>

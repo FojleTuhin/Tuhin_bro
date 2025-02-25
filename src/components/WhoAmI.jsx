@@ -11,9 +11,9 @@ const WhoAmI = forwardRef((props, ref) => {
           <p className="lg:text-[24px] sm:text-[18px] text-[14px] pl-10 mob:pl-0 hover-large">
             I specialize in building fast, responsive, and user-friendly
             websites that not only look great but also perform flawlessly. With
-            expertise in modern technologies like React, Vue, and Tailwind, I
+            expertise in modern technologies like React, Next js, ShadCn and Tailwind, I
             create seamless digital experiences that enhance usability and
-            engagement
+            engagement.
           </p>
         </div>
       </div>
