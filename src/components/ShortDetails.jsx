@@ -59,7 +59,7 @@ const ShortDetails = () => {
               href="https://www.linkedin.com/in/fojle-tuhin"
               target="_blank"
               rel="noreferrer"
-              className="hover:opacity-80 transition-opacity text-[12px] mob:text-[14px] hidden "
+              className="hover:opacity-80 transition-opacity text-[12px] mob:text-[14px] hidden sm:block "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

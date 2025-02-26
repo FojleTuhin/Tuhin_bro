@@ -44,18 +44,19 @@ export default function Home() {
           <div className="border-b pt-10 max-w-[1320px] mx-auto "></div>
         </div>
         <WhoAmI ref={aboutRef} />
-        <Skills ref={skillsRef}/>
+        <Skills ref={skillsRef} />
         <Projects ref={projectsRef} />
         <TextMarque />
         <Contact ref={contactRef} />
-        <Footer skillsRef={skillsRef}/>
+        <Footer skillsRef={skillsRef} />
         <div
           id="cursor"
           className="fixed w-4 h-4 bg-primary rounded-full pointer-events-none z-50 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center"
         >
-          <p className="seeLive text-black text-[42px] text-center leading-none">SEE LIVE</p>
+          <p className="seeLive text-black text-[42px] text-center leading-none">
+            SEE LIVE
+          </p>
         </div>
-
       </ReactLenis>
     </div>
   );
