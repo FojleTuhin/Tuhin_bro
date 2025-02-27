@@ -102,7 +102,7 @@ const Skills =forwardRef((props, ref) => {
                 <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   Javascript
                 </p>
-                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Intermediate</p>
               </div>
             </div>
 
@@ -168,7 +168,7 @@ const Skills =forwardRef((props, ref) => {
                 <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   Next js
                 </p>
-                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Intermediate</p>
               </div>
             </div>
             {/* six  */}
@@ -189,7 +189,7 @@ const Skills =forwardRef((props, ref) => {
                 <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   Firebase
                 </p>
-                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Intermediate</p>
               </div>
             </div>
           </div>
@@ -220,7 +220,7 @@ const Skills =forwardRef((props, ref) => {
                 <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   Express Js
                 </p>
-                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Intermediate</p>
               </div>
             </div>
 
@@ -242,7 +242,7 @@ const Skills =forwardRef((props, ref) => {
                 <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   Node Js
                 </p>
-                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Intermediate</p>
               </div>
             </div>
 
@@ -266,7 +266,7 @@ const Skills =forwardRef((props, ref) => {
                 <p className="tab:text-[18px] text-[16px] font-medium text-[#FFFFFF]">
                   MongoDB
                 </p>
-                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Expert</p>
+                <p className="tab:text-[14px] text-[12px] text-[#FFFFFFA6]">Intermediate</p>
               </div>
             </div>
           </div>
